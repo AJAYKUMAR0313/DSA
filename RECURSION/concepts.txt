@@ -1,0 +1,66 @@
+Recursion Patterns:
+Fibonacci Sequence:
+
+Calculate nth Fibonacci number using recursion.
+Calculate nth Fibonacci number using memoization (top-down DP).
+Factorial:
+
+Calculate factorial of a number using recursion.
+Permutations and Combinations:
+
+Generate all permutations of a string/array using recursion.
+Generate all combinations of a string/array using recursion.
+Binary Trees:
+
+Implement depth-first search (DFS) and breadth-first search (BFS) in a binary tree.
+Check if a binary tree is balanced or not.
+Backtracking:
+
+Solve the N-Queens problem.
+Generate all possible combinations of a set of numbers to achieve a target sum (Subset Sum).
+Divide and Conquer:
+
+Implement binary search algorithm using recursion.
+Dynamic Programming Patterns:
+Memoization (Top-down DP):
+
+Solve the Fibonacci sequence problem using memoization.
+Implement memoization for the knapsack problem.
+Tabulation (Bottom-up DP):
+
+Solve the Fibonacci sequence problem using tabulation.
+Implement tabulation for the knapsack problem.
+Longest Common Subsequence (LCS):
+
+Find the length of the longest common subsequence between two strings.
+Print the longest common subsequence between two strings.
+Longest Increasing Subsequence (LIS):
+
+Find the length of the longest increasing subsequence in an array.
+Print the longest increasing subsequence in an array.
+Coin Change Problem:
+
+Find the number of ways to make a given amount using a set of coins.
+Find the minimum number of coins required to make a given amount.
+0/1 Knapsack Problem:
+
+Solve the 0/1 knapsack problem using dynamic programming.
+Matrix Chain Multiplication:
+
+Find the minimum number of multiplications required to multiply a chain of matrices.
+Edit Distance:
+
+Find the minimum number of operations required to convert one string into another (insertion, deletion, substitution).
+Subset Sum Problem:
+
+Given a set of numbers, determine if there exists a subset whose sum is equal to a given target.
+Maximum Subarray Sum:
+
+Find the contiguous subarray with the largest sum.
+Shortest Path Algorithms:
+Implement the Floyd-Warshall algorithm for all-pairs shortest paths.
+Implement Dijkstra's algorithm for single-source shortest paths.
+Tiling Problems:
+Find the number of ways to tile a floor of size n x m using 1 x 2 tiles.
+Tree DP:
+Solve problems involving dynamic programming on trees, such as finding the diameter of a tree or finding the maximum sum path in a binary tree.
