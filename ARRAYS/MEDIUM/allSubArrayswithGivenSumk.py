@@ -10,6 +10,7 @@ def findAllSubarraysWithGivenSum(arr, k):
     mpp[0] = 1 # Setting 0 in the map.
     for i in range(n):
         # add current element to prefix Sum:
+        print(mpp)
         preSum += arr[i]
 
         # Calculate x-k:
@@ -26,7 +27,7 @@ def findAllSubarraysWithGivenSum(arr, k):
 
 
 if __name__ == '__main__':
-    arr = [3, 1, 2, 4]
+    arr = [1,2,3,-3,1,1,1,4,2,-3]
     k = 6
     cnt = findAllSubarraysWithGivenSum(arr, k)
     print("The number of subarrays is:", cnt)
