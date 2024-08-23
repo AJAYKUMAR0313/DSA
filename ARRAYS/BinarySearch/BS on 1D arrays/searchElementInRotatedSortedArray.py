@@ -7,7 +7,11 @@ def search(arr, n, k):
         # if mid points the target
         if arr[mid] == k:
             return mid
-
+        # Edge case (if there are duplicates):(Rotated Sorted array 2)
+        # if arr[low] == arr[mid] and arr[mid] == arr[high]:
+        #     low += 1
+        #     high -= 1
+        #     continue    
         # if left part is sorted
         if arr[low] <= arr[mid]:
             if arr[low] <= k and k <= arr[mid]:

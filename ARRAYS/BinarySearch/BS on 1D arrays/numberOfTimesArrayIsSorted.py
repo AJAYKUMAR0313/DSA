@@ -1,0 +1,1 @@
+# finding the smallest element in the rotated sorted array gives you the number of times an array is sorted
